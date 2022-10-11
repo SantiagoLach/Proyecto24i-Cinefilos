@@ -42,3 +42,10 @@
   {
     width: 50px;
   }
+
+
+  /*Error 404 */
+  .error-404 {
+    width:15rem ;
+    height: 15rem;
+  }
