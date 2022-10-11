@@ -1,5 +1,37 @@
+<<<<<<< HEAD
 .container {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
+=======
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*Navbar*/
+
+.logo-navbar a {
+  font-family: 'Pacifico', cursive;
+}
+
+
+/*Footer*/
+
+.logo-footer {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.titulo-footer {
+  font-family: 'Pacifico', cursive;
+}
+
+.imagen-redes {
+  max-width: 50px;
+  max-height: 50px;
+}
+>>>>>>> a9c71b4729981203aebf99e80519cfd37ac2990c
