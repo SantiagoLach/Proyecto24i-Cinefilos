@@ -50,3 +50,7 @@
   span.cinefilos-titulo {
     font-family: 'Pacifico', cursive;
   }
+
+  iframe.video-youtube {
+    border-radius: 20px;
+  }
