@@ -54,3 +54,20 @@
   iframe.video-youtube {
     border-radius: 20px;
   }
+
+  /*Galeria*/
+  .galeria {
+    margin: 0px !important;
+padding: 25px;
+}
+
+.galeria-img {
+    width: 300px;
+    height: 250px;
+    justify-self: center;
+    }
+
+    .galeria-img:hover {
+        border: 5px solid #f7f7f7;
+    }
+    
