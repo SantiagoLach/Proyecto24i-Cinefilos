@@ -6,6 +6,12 @@
   padding: 0;
 }
 /*Navbar*/
+.navbar {
+  background: #212529;
+  background: linear-gradient(270deg,#212529 0%, #000000 800%);
+  background: -webkit-linear-gradient(270deg,#212529 0%, #000000 800%);
+  background: -moz-linear-gradient(270deg,#212529 0%, #000000 800%);
+}
 
 .logo-navbar h4 {
   font-family: 'Pacifico', cursive;
@@ -59,13 +65,13 @@
     font-family: 'Pacifico', cursive;
   }
 
-  iframe.video-youtube {
+iframe.video-youtube {
     border-radius: 20px;
   }
 
   /*Galeria*/
-  .galeria {
-    margin: 0px !important;
+.galeria {
+  margin: 0px !important;
 }
 
 .galeria-img {
@@ -73,7 +79,11 @@
   padding:2px;
 }
 
-    .galeria-img:hover {
-      border: 5px solid #f7f7f7;
-    }
-    
+.galeria-img:hover {
+  border: 5px solid #E3F2FD;
+}
+
+/*Contacto*/
+.ratio iframe {
+  border-radius: 20px;
+}
