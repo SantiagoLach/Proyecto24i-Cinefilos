@@ -58,16 +58,14 @@
   /*Galeria*/
   .galeria {
     margin: 0px !important;
-padding: 25px;
 }
 
 .galeria-img {
-    width: 300px;
-    height: 250px;
-    justify-self: center;
-    }
+  min-height: 400;
+  padding:2px;
+}
 
     .galeria-img:hover {
-        border: 5px solid #f7f7f7;
+      border: 5px solid #f7f7f7;
     }
     

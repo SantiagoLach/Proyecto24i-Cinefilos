@@ -11,20 +11,63 @@
 <link rel="stylesheet" href="/styles/styles.css">
 </head>
 <body class="bg-dark">
- 
-  
-
-
-
-
-
-
-
-
-
-
-
-  <main class="text-white">
+  <header class="container-fluid">
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid d-flex justify-content-between">
+        <a class="navbar-brand col-3" href="/index.html">
+          <div class="logo-navbar d-flex align-items-center me-5">
+            <img src="/images/Logo.png" style="width: 50px;" alt="Logo">
+            <h4 class="navbar-brand fs-3 text-light">Cinefilos</h4>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-light fs-5 fw-bold mx-3" aria-current="page" href="/index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light fs-5 fw-bold mx-3" href="/Pages/sobre-nosotros.html">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-light fs-5 fw-bold mx-3" href="/Pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <button class="btn btn-danger text-light fs-5 fw-bold mx-1" data-bs-toggle="modal" data-bs-target="#subscribe-modal">Premiun</button>
+          <button class="btn btn-light fs-5 fw-bold mx-1" type="submit"><a class="text-decoration-none text-dark" href="/Pages/Registro.html"> Registrarse</a></button>
+        </div>
+      </div>
+    </nav>
+    <div class="modal fade" id="subscribe-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Subscripción Premiun</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action="" class="form">
+              <label class="form-label" for="email">
+                <span>Para la Subscripción premiun solo ingresa tu correo electronico</span>
+                <input type="email" id="email" class="form-control">                  
+              </label>
+              <label class="form-check-label" for="check">
+                <input type="checkbox" id="checkbox" class="form-check-input">                  
+                <span>Acepto <a href="/Pages/error404.html">Términos y condiciones</a></span>
+              </label>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+            <button type="submit" id="email" class="btn btn-outline-dark text-dark">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="text-white my-5 py-5">
     <section class="container">
       <div class="row">
         <h1>Equipo Cinefilos</h1>
