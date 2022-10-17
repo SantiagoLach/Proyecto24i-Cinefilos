@@ -5,6 +5,16 @@
   margin: 0;
   padding: 0;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer{
+  margin-top: auto;
+}
+
 /*Navbar*/
 .navbar {
   background: #212529;
@@ -18,12 +28,12 @@
 }
 
 .nav-link{
-  transition:all 0.3s;
+  transition:all 0.2s;
 }
 
 .nav-link:hover{
-  transform: scale(1.05);
-  color: #DC3545 ;
+  transform: scale(1.05) skew(-3deg);
+  margin-left: 10px;
 }
 
 /*Footer*/

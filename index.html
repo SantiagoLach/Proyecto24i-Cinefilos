@@ -23,15 +23,15 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon "></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+        <div class="collapse navbar-collapse ps-lg-5 ps-1" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-lg-5">
+            <li class="nav-item ">
               <a class="nav-link text-light fs-5 fw-bold mx-3" aria-current="page" href="/index.html">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light fs-5 fw-bold mx-3" href="/Pages/sobre-nosotros.html">Sobre Nosotros</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item">
               <a class="nav-link text-light fs-5 fw-bold mx-3" href="/Pages/contacto.html">Contacto</a>
             </li>
           </ul>
@@ -55,7 +55,7 @@
               </label>
               <label class="form-check-label" for="check">
                 <input type="checkbox" id="checkbox" class="form-check-input">                  
-                <span>Acepto <a href="">Términos y condiciones</a></span>
+                <span>Acepto <a target="_blank" href="/Pages/error404.html">Términos y condiciones</a></span>
               </label>
             </form>
           </div>
@@ -69,6 +69,191 @@
   </header>
 
   <main class="container-fluid mt-5">
+    <section class="container-fluid mx-0 px-0 pt-4">
+      <div id="carouselExampleControls" class="carousel slide mb-3 container-fluid" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/primer slider.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/segundo slider.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/tercer slider.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="row justify-content-center justify-content-lg-around">
+        <div class="col-lg-4 col-12">
+          <h4 class="text-start text-light fw-bold my-3 ms-4"> Proximamente en la plataforma:</h4>
+          <article class="card2">
+            <div class="card mb-3 text-center">
+              <img src="/img/Card 2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#trailerl">
+                  Ver trailer
+                </button>
+              </div>
+            </div>
+            <div class="modal fade" id="trailerl" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Bullet Train trailer oficial(HD)</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body d-flex justify-content-center row">
+                    <iframe class="col-12" src="https://www.youtube.com/embed/0IOsk2Vlc4o" width="80%" height="300" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="card-text">Cinco asesinos a sueldo se encuentran a bordo de un tren bala que
+                      viaja de Tokio a Morioka. Los sicarios descubrirán que sus
+                      misiones no son ajenas entre sí.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          
+          <article class="card2">
+            <div class="card mb-3 text-center">
+              <img src="/img/Card 1.png" class="card-img-top" alt="thor">
+              <div class="card-body">
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#trailer2">
+                  Ver trailer
+                </button>
+              </div>
+            </div>
+            <div class="modal fade" id="trailer2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">LOVE AND THUNDER trailer oficial(HD)</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body d-flex justify-content-center row">
+                    <iframe class="col-12" src="https://www.youtube.com/embed/Go8nTmfrQd8" width="80%" height="300" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="card-text">Tras desatar una antigua guerra, el codicioso guerrero Thor es desterrado a la Tierra por su padre para que viva entre los hombres y descubra así el verdadero sentido de la humildad. Allí, sin sus poderes, Thor deberá enfrentarse a las fuerzas más oscuras que su mayor enemigo le enviará desde Asgard.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+  
+          <article class="card3">
+            <div class="card mb-3 text-center">
+              <img src="/img/Card 3.png" class="card-img-top" alt="thor">
+              <div class="card-body">
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#trailer3">
+                  Ver trailer
+                </button>
+              </div>
+            </div>
+            <div class="modal fade" id="trailer3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Maléfica trailer oficial(HD)</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body d-flex justify-content-center row">
+                    <iframe class="col-12" src="https://www.youtube.com/embed/n0OFH4xpPr4" height="300" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="card-text">Maléfica es una bella joven de corazón puro que vive una vida
+                      idílica en su reino del bosque. Cuando un ejército invasor pone en
+                      peligro el reino, Maléfica se erige como la temible protectora del
+                      bosque. Sin embargo, una despiadada traición endurece su corazón y
+                      la convierte en una criatura en busca de venganza. Maléfica
+                      empieza una batalla contra el sucesor del rey y lanza una
+                      maldición contra su hija Aurora. Sin embargo, se da cuenta de que
+                      la joven es la única que puede traer la paz al reino.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="col-lg-6 col-12">
+          <h4 class="text-center text-light fw-bold my-3 ms-4"> Las más buscadas:</h4>
+          <table class="table table-dark table-hover">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Película</th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Duración</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Gladiator </td>
+                <td>Acción, Aventura.</td>
+                <td>2h 35min</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>El caballero oscuro</td>
+                <td>Acción, Suspenso.</td>
+                <td>2h 32min</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Vengadores: Infinity War</td>
+                <td>Acción, Aventura, Fantasía.</td>
+                <td>2h 36min </td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>El precio del poder.</td>
+                <td>Acción, Drama.</td>
+                <td>2h 45min</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Vengadores: Endgame</td>
+                <td>Acción, Aventura, Fantasía</td>
+                <td>3h 01min</td>
+              </tr>
+            </tbody>
+          </table>
+          <h4 class="text-center text-light fw-bold my-3 ms-4"> Busca tu pelí:</h4>
+          <form action="" class="container">
+            <label for="nombre-peli" class="col-form-label row align-items-center mb-3 row" >
+              <span class="text-light col-3">Título:</span>
+              <div class="col-9">
+                <input type="text" name="nombre-peli" id="nombre-peli" class="form-control" required placeholder="Nombre de la película que deseas encontrar">
+              </div>
+            </label>
+            <label for="nombre-peli" class="col-form-label row align-items-center mb-3 row" >
+              <span class="text-light col-3">Año de estreno:</span>
+              <div class="col-9">
+                <input type="date" name="nombre-peli" id="nombre-peli" class="form-control">
+              </div>
+            </label>
+            <button class="btn btn-danger w-100 fw-bold fs-5">Buscar</button>
+          </form>
+          <a href="/Pages/error404.html">
+            <img class="my-4 img-fluid"src="/images/publicidad22.png" alt="publicidad">
+          </a>
+        </div>
+      </div>
+    </section>
+    <hr class="text-light">
     <section class="container-fluid py-3 my-3">
       <div class="container-fluid">
         <h3 class="text-start text-light fw-bold my-3 ms-4">Mas que películas, momentos...</h3>
@@ -176,14 +361,14 @@
 
 
   <footer class="bg-black">
-    <div class="container text-center text-white fs-5">
+    <div class="container text-center text-white fs-5 py-3">
       <div class="row align-items-center">
         <div class="col-sm-12 col-md-4">
           <img class="logo-footer" src="./images/Logo.png" alt="logo-de-la-pagina">
           <span class="titulo-footer fs-3">Cinefilos</span>
         </div>
         <div class="col-sm-12 col-md-4">
-          <a href="#"><img src="./images/logo_facebook.png" alt="logo-facebook" class="imagen-redes"></a>
+          <a href="#"><img src="./images/Logo-Facebook.png" alt="logo-facebook" class="imagen-redes"></a>
           <span class="titulo-footer">Cinefilos</span>
           <br>
           <a href="#"><img src="./images/Logo-Instagram.png" alt="logo-Instagram" class="imagen-redes"></a>
